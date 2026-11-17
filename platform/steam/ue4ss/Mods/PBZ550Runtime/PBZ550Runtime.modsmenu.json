@@ -1,0 +1,190 @@
+{
+  "title": {
+    "en": "YoRHa Unofficial Ceremonial Attire",
+    "zh-Hans": "\u975e\u6b63\u5f0f\u793c\u4eea\u7740\u88c5",
+    "ru": "\u041d\u0435\u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0446\u0435\u0440\u0435\u043c\u043e\u043d\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043d\u0430\u0440\u044f\u0434 \u0419\u043e\u0440\u0425\u0430"
+  },
+  "version": "0.2.0-candidate.32",
+  "description": {
+    "en": "Garment variants. Requires this standalone attire, UE4SS, Mods Menu and its official Bridge.",
+    "zh-Hans": "\u72ec\u7acb\u8863\u88c5\u5dee\u5206\u3002\u9700\u8981\u672c\u8863\u88c5\u3001UE4SS\u3001Mods Menu\u53ca\u5b98\u65b9Bridge\u3002",
+    "ru": "\u0412\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u043e\u0434\u0435\u0436\u0434\u044b. \u0422\u0440\u0435\u0431\u0443\u0435\u0442 \u044d\u0442\u043e\u0442 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u043d\u0430\u0440\u044f\u0434, UE4SS, Mods Menu \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 Bridge."
+  },
+  "settings": [
+    {
+      "key": "Sleeves",
+      "type": "toggle",
+      "label": { "en": "Sleeves", "zh-Hans": "\u8896\u5b50", "ru": "\u0420\u0443\u043a\u0430\u0432\u0430" },
+      "default": true
+    },
+    {
+      "key": "Gloves",
+      "type": "toggle",
+      "label": { "en": "Gloves", "zh-Hans": "\u624b\u5957", "ru": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438" },
+      "default": true
+    },
+    {
+      "key": "Harness",
+      "type": "toggle",
+      "label": { "en": "Harness", "zh-Hans": "\u675f\u5e26", "ru": "\u0420\u0435\u043c\u043d\u0438" },
+      "default": true
+    },
+    {
+      "key": "Flowers",
+      "type": "toggle",
+      "label": { "en": "Flowers", "zh-Hans": "\u82b1\u9970", "ru": "\u0426\u0432\u0435\u0442\u043e\u0447\u043d\u044b\u0435 \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u044f" },
+      "default": true
+    },
+    {
+      "key": "Ribbon",
+      "type": "toggle",
+      "label": { "en": "Ribbon", "zh-Hans": "\u7f0e\u5e26", "ru": "\u041b\u0435\u043d\u0442\u044b" },
+      "default": true
+    },
+    {
+      "key": "NeckPatch",
+      "type": "toggle",
+      "label": { "en": "Neck Lace", "zh-Hans": "\u9888\u90e8\u857e\u4e1d", "ru": "\u041a\u0440\u0443\u0436\u0435\u0432\u043e \u043d\u0430 \u0448\u0435\u0435" },
+      "default": true
+    },
+    {
+      "key": "SkirtPatch",
+      "type": "toggle",
+      "label": { "en": "Skirt Patch", "zh-Hans": "\u88d9\u6446\u8d34\u7247", "ru": "\u041d\u0430\u043a\u043b\u0430\u0434\u043a\u0430 \u043d\u0430 \u044e\u0431\u043a\u0435" },
+      "default": true
+    },
+    {
+      "key": "Tie",
+      "type": "toggle",
+      "label": { "en": "Tie", "zh-Hans": "\u9886\u5e26", "ru": "\u0413\u0430\u043b\u0441\u0442\u0443\u043a" },
+      "default": true
+    },
+    {
+      "key": "Thighhighs",
+      "type": "toggle",
+      "label": { "en": "Thighhighs", "zh-Hans": "\u957f\u889c", "ru": "\u0427\u0443\u043b\u043a\u0438" },
+      "default": true
+    },
+    {
+      "key": "StockingMaterial",
+      "type": "choice",
+      "label": { "en": "Stocking Material", "zh-Hans": "\u4e1d\u889c\u6750\u8d28", "ru": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u0447\u0443\u043b\u043e\u043a" },
+      "default": "original",
+      "options": [
+        {
+          "value": "original",
+          "label": { "en": "Original", "zh-Hans": "\u539f\u6837", "ru": "\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b" }
+        },
+        {
+          "value": "fiber",
+          "label": { "en": "Sheer Black", "zh-Hans": "\u8584\u7eb1\u9ed1\u4e1d", "ru": "\u041f\u043e\u043b\u0443\u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0435 \u0447\u0451\u0440\u043d\u044b\u0435" }
+        },
+        {
+          "value": "stellar_nylon",
+          "label": { "en": "Woven Black", "zh-Hans": "\u7ea4\u7ef4\u9ed1\u4e1d", "ru": "\u0412\u043e\u043b\u043e\u043a\u043d\u0438\u0441\u0442\u044b\u0435 \u0447\u0451\u0440\u043d\u044b\u0435" }
+        }
+      ]
+    },
+    {
+      "key": "StockingDenier",
+      "type": "number",
+      "label": { "en": "Stocking Denier (D)", "zh-Hans": "\u4e1d\u889c\u4e39\u6570\uff08D\uff09", "ru": "\u041f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c \u0447\u0443\u043b\u043e\u043a (D)" },
+      "default": 30,
+      "min": 5,
+      "max": 120,
+      "step": 1,
+      "slider": true,
+      "help": {
+        "en": "Only applies to Sheer Black and Woven Black stockings. Lower denier is more transparent; higher is denser and darker. Woven Black below 40D is extra sheer.",
+        "zh-Hans": "\u4ec5\u5bf9\u8584\u7eb1\u9ed1\u4e1d\u548c\u7ea4\u7ef4\u9ed1\u4e1d\u751f\u6548\u3002\u4e39\u6570\u8d8a\u4f4e\u8d8a\u900f\u80a4\uff0c\u8d8a\u9ad8\u8d8a\u539a\u5b9e\uff1b\u7ea4\u7ef4\u9ed1\u4e1d\u4f4e\u4e8e 40D \u65f6\u989d\u5916\u900f\u80a4\u3002",
+        "ru": "\u0414\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043f\u043e\u043b\u0443\u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u0445 \u0438 \u0432\u043e\u043b\u043e\u043a\u043d\u0438\u0441\u0442\u044b\u0445 \u0447\u0451\u0440\u043d\u044b\u0445 \u0447\u0443\u043b\u043e\u043a. \u0427\u0435\u043c \u043d\u0438\u0436\u0435 \u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c, \u0442\u0435\u043c \u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u0435\u0435 \u043a\u043e\u0436\u0430; \u0447\u0435\u043c \u0432\u044b\u0448\u0435, \u0442\u0435\u043c \u043f\u043b\u043e\u0442\u043d\u0435\u0435 \u0438 \u0442\u0435\u043c\u043d\u0435\u0435. \u0412\u043e\u043b\u043e\u043a\u043d\u0438\u0441\u0442\u044b\u0435 \u0447\u0443\u043b\u043a\u0438 \u043d\u0438\u0436\u0435 40D \u0432\u044b\u0433\u043b\u044f\u0434\u044f\u0442 \u0431\u043e\u043b\u0435\u0435 \u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u044b\u043c\u0438."
+      }
+    },
+    {
+      "key": "Panties",
+      "type": "toggle",
+      "label": { "en": "Panties", "zh-Hans": "\u5e95\u8863", "ru": "\u041d\u0438\u0436\u043d\u0435\u0435 \u0431\u0435\u043b\u044c\u0435" },
+      "default": true
+    },
+    {
+      "key": "Chest",
+      "type": "choice",
+      "label": { "en": "Chest Fabric", "zh-Hans": "\u80f8\u90e8\u8863\u6599", "ru": "\u0422\u043a\u0430\u043d\u044c \u043d\u0430 \u0433\u0440\u0443\u0434\u0438" },
+      "default": "normal",
+      "options": [
+        {
+          "value": "normal",
+          "label": { "en": "Original", "zh-Hans": "\u539f\u6837", "ru": "\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b" }
+        },
+        {
+          "value": "transparent",
+          "label": { "en": "Transparent", "zh-Hans": "\u900f\u660e", "ru": "\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u0430\u044f" },
+          "addon": "Transparent Chest/Nier_03_Addons/Addon_Nier_03_TransparentChest_P.utoc"
+        },
+        {
+          "value": "hidden",
+          "label": { "en": "Hide", "zh-Hans": "\u9690\u85cf", "ru": "\u0421\u043a\u0440\u044b\u0442\u044c" },
+          "addon": "Hide Chest/Nier_03_Addons/Addon_Nier_03_HideChest_P.utoc"
+        }
+      ]
+    },
+    {
+      "key": "Skirt",
+      "type": "choice",
+      "label": { "en": "Skirt", "zh-Hans": "\u88d9\u6446", "ru": "\u042e\u0431\u043a\u0430" },
+      "default": "normal",
+      "options": [
+        {
+          "value": "normal",
+          "label": { "en": "Original", "zh-Hans": "\u539f\u6837", "ru": "\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b" }
+        },
+        {
+          "value": "transparent",
+          "label": { "en": "More Transparent", "zh-Hans": "\u66f4\u900f\u660e", "ru": "\u0411\u043e\u043b\u0435\u0435 \u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u0430\u044f" },
+          "addon": "More Transparent  Skirt/Nier_03_Addons/Addon_Nier_03_MoreTransparentSkirt_P.utoc"
+        },
+        {
+          "value": "hidden",
+          "label": { "en": "Hide", "zh-Hans": "\u9690\u85cf", "ru": "\u0421\u043a\u0440\u044b\u0442\u044c" },
+          "addon": "Hide Skirt/Nier_03_Addons/Addon_Nier_03_HideSkirt_P.utoc"
+        }
+      ]
+    },
+    {
+      "key": "Blindfold",
+      "type": "toggle",
+      "label": { "en": "Blindfold", "zh-Hans": "\u773c\u7f69", "ru": "\u041f\u043e\u0432\u044f\u0437\u043a\u0430 \u043d\u0430 \u0433\u043b\u0430\u0437\u0430" },
+      "default": true
+    },
+    {
+      "key": "PresetFull",
+      "type": "action",
+      "label": { "en": "Full Outfit", "zh-Hans": "\u5b8c\u6574\u8863\u88c5", "ru": "\u041f\u043e\u043b\u043d\u044b\u0439 \u043d\u0430\u0440\u044f\u0434" },
+      "help": {
+        "en": "Applies the entire set of settings. Close and reopen settings to see synchronized options.",
+        "zh-Hans": "\u5e94\u7528\u6574\u7ec4\u8bbe\u7f6e\u3002\u5173\u95ed\u5e76\u91cd\u65b0\u6253\u5f00\u8bbe\u7f6e\u67e5\u770b\u540c\u6b65\u540e\u7684\u9009\u9879\u3002",
+        "ru": "\u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442 \u0432\u0441\u044e \u0433\u0440\u0443\u043f\u043f\u0443 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a. \u0417\u0430\u043a\u0440\u043e\u0439\u0442\u0435 \u0438 \u0441\u043d\u043e\u0432\u0430 \u043e\u0442\u043a\u0440\u043e\u0439\u0442\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b."
+      }
+    },
+    {
+      "key": "PresetHeelsOnly",
+      "type": "action",
+      "label": { "en": "Heels Only", "zh-Hans": "\u4ec5\u9ad8\u8ddf\u978b", "ru": "\u0422\u043e\u043b\u044c\u043a\u043e \u043a\u0430\u0431\u043b\u0443\u043a\u0438" },
+      "help": {
+        "en": "Applies the entire set of settings. Close and reopen settings to see synchronized options.",
+        "zh-Hans": "\u5e94\u7528\u6574\u7ec4\u8bbe\u7f6e\u3002\u5173\u95ed\u5e76\u91cd\u65b0\u6253\u5f00\u8bbe\u7f6e\u67e5\u770b\u540c\u6b65\u540e\u7684\u9009\u9879\u3002",
+        "ru": "\u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442 \u0432\u0441\u044e \u0433\u0440\u0443\u043f\u043f\u0443 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a. \u0417\u0430\u043a\u0440\u043e\u0439\u0442\u0435 \u0438 \u0441\u043d\u043e\u0432\u0430 \u043e\u0442\u043a\u0440\u043e\u0439\u0442\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b."
+      }
+    },
+    {
+      "key": "PresetLimbsOnly",
+      "type": "action",
+      "label": { "en": "Limbs Only", "zh-Hans": "\u4ec5\u56db\u80a2\u8863\u9970", "ru": "\u0422\u043e\u043b\u044c\u043a\u043e \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u044f \u043d\u0430 \u043a\u043e\u043d\u0435\u0447\u043d\u043e\u0441\u0442\u044f\u0445" },
+      "help": {
+        "en": "Applies the entire set of settings. Close and reopen settings to see synchronized options.",
+        "zh-Hans": "\u5e94\u7528\u6574\u7ec4\u8bbe\u7f6e\u3002\u5173\u95ed\u5e76\u91cd\u65b0\u6253\u5f00\u8bbe\u7f6e\u67e5\u770b\u540c\u6b65\u540e\u7684\u9009\u9879\u3002",
+        "ru": "\u041f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442 \u0432\u0441\u044e \u0433\u0440\u0443\u043f\u043f\u0443 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a. \u0417\u0430\u043a\u0440\u043e\u0439\u0442\u0435 \u0438 \u0441\u043d\u043e\u0432\u0430 \u043e\u0442\u043a\u0440\u043e\u0439\u0442\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b."
+      }
+    }
+  ]
+}
